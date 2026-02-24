@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TabWarden – Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #f9f9f7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 3rem 3.5rem;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 2px solid #e8f0ea;
+      padding-bottom: 1.5rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #2d6a4f;
+    }
+
+    header p {
+      color: #555;
+      margin-top: 0.4rem;
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #2d6a4f;
+      margin: 2.2rem 0 0.6rem;
+    }
+
+    p { margin-bottom: 0.8rem; color: #333; }
+
+    ul {
+      margin: 0.4rem 0 0.8rem 1.4rem;
+      color: #333;
+    }
+
+    ul li { margin-bottom: 0.3rem; }
+
+    .highlight-box {
+      background: #f0f7f2;
+      border-left: 4px solid #52b788;
+      border-radius: 0 8px 8px 0;
+      padding: 1rem 1.2rem;
+      margin: 1.2rem 0;
+    }
+
+    .highlight-box p { margin: 0; font-weight: 500; color: #1b4332; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.2rem;
+      font-size: 0.94rem;
+    }
+
+    th {
+      background: #f0f7f2;
+      color: #2d6a4f;
+      font-weight: 600;
+      text-align: left;
+      padding: 0.6rem 0.8rem;
+      border-bottom: 2px solid #c8e6c9;
+    }
+
+    td {
+      padding: 0.55rem 0.8rem;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    .yes { color: #2d6a4f; font-weight: 600; }
+    .no  { color: #888; }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #eee;
+      font-size: 0.88rem;
+      color: #888;
+    }
+
+    a { color: #2d6a4f; }
+
+    @media (max-width: 600px) {
+      .container { padding: 2rem 1.2rem; }
+      table { font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>TabWarden – Privacy Policy</h1>
+    <p>Extension version 2.0.0 &nbsp;·&nbsp; Last updated: February 2026</p>
+  </header>
+
+  <div class="highlight-box">
+    <p>TabWarden operates entirely on your device. No personal data is ever collected, transmitted, or shared with any server, company, or third party.</p>
+  </div>
+
+  <h2>1. Overview</h2>
+  <p>
+    TabWarden ("the Extension") is a browser productivity tool for Google Chrome. It helps you manage open tabs,
+    enforce daily time limits on websites, block adult content, and view local browsing analytics. This policy
+    describes what data the Extension accesses, why, and how it is handled.
+  </p>
+
+  <h2>2. Data We Access and Why</h2>
+  <p>
+    To deliver its features, the Extension reads certain information from your browser. All of this information
+    stays on your device and is never sent anywhere.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Why it is accessed</th>
+        <th>Stored?</th>
+        <th>Sent externally?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Tab URLs &amp; page titles</strong></td>
+        <td>Used to display your open tabs in the popup, score tab priority, and identify the active domain for time tracking.</td>
+        <td class="yes">Yes – device only</td>
+        <td class="no">Never</td>
+      </tr>
+      <tr>
+        <td><strong>Domain names visited</strong></td>
+        <td>Used to enforce per-site daily time limits, match against the adult-content blocklist, and generate your local usage reports.</td>
+        <td class="yes">Yes – device only</td>
+        <td class="no">Never</td>
+      </tr>
+      <tr>
+        <td><strong>Time spent per domain</strong></td>
+        <td>Measured locally to enforce time limits and display today's and this week's usage charts in the Reports panel.</td>
+        <td class="yes">Yes – device only (30-day rolling window)</td>
+        <td class="no">Never</td>
+      </tr>
+      <tr>
+        <td><strong>Tab activation events</strong></td>
+        <td>Detected to know which tab is currently active, so the timer increments for the correct domain.</td>
+        <td class="no">No</td>
+        <td class="no">Never</td>
+      </tr>
+      <tr>
+        <td><strong>User preferences</strong></td>
+        <td>Your tab limit, per-site time limits, locked tabs, adult-blocker toggle, and dark-mode setting are saved so the Extension remembers your configuration.</td>
+        <td class="yes">Yes – device only</td>
+        <td class="no">Never</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>3. Data We Do Not Access</h2>
+  <p>TabWarden does <strong>not</strong> access or collect any of the following:</p>
+  <ul>
+    <li>Your name, email address, or any personally identifiable information</li>
+    <li>Passwords, credentials, or authentication data</li>
+    <li>Page content (text, images, videos, or form inputs on websites you visit)</li>
+    <li>Financial or payment information</li>
+    <li>Your location, IP address, or GPS data</li>
+    <li>Personal communications such as emails, messages, or chat logs</li>
+    <li>Health or medical information</li>
+    <li>Keystrokes, mouse movements, clicks, or scroll position</li>
+  </ul>
+
+  <h2>4. How Data Is Stored</h2>
+  <p>
+    All data is stored exclusively in <strong>chrome.storage.local</strong> — a sandboxed storage area
+    provided by the Chrome browser that lives entirely on your device. It is not synced to Google servers
+    or any cloud service. Usage history is automatically deleted after 30 days on a rolling basis.
+    You can clear all stored data at any time by removing the Extension from Chrome.
+  </p>
+
+  <h2>5. Permissions Explained</h2>
+  <p>The Extension requests the following Chrome permissions, each used only as described:</p>
+  <ul>
+    <li><strong>tabs</strong> – Read open tab URLs/titles; enforce tab limits; redirect blocked tabs.</li>
+    <li><strong>storage</strong> – Save your settings and local usage data on-device.</li>
+    <li><strong>alarms</strong> – Schedule background tasks (tab cleanup every 2 min, time tracking every 30 sec, daily reset, weekly report).</li>
+    <li><strong>webNavigation</strong> – Detect page navigations to check adult-content and time-limit rules before a page loads.</li>
+    <li><strong>notifications</strong> – Display a weekly browsing summary as a local desktop notification.</li>
+  </ul>
+
+  <h2>6. Third-Party Services</h2>
+  <p>
+    TabWarden does not integrate with any analytics platforms, advertising networks, or third-party services.
+    The Extension's popup interface loads a stylesheet from Google Fonts (for typography only); no user data
+    is included in that request beyond what a standard browser font request contains (your IP address, as handled
+    by Google's standard <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>).
+    No other external connections are made.
+  </p>
+
+  <h2>7. Data Sharing and Sale</h2>
+  <p>
+    We do not sell, rent, license, or share any data with any third party, advertiser, data broker, or
+    analytics service — because we do not collect any data in the first place.
+  </p>
+
+  <h2>8. Children's Privacy</h2>
+  <p>
+    TabWarden is not directed at children under the age of 13 and does not knowingly collect information
+    from children. The adult-content blocking feature is designed to help users restrict access to explicit
+    material, not to collect any information about users.
+  </p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>
+    If this policy changes in a future version of the Extension, the updated policy will be published at
+    this URL and the "Last updated" date at the top will be revised. Continued use of the Extension after
+    a policy update constitutes acceptance of the revised policy.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    If you have questions or concerns about this privacy policy or the Extension's data practices, please
+    open an issue on the Extension's support page or contact the developer directly.
+  </p>
+
+  <footer>
+    <p>TabWarden v2.0.0 &nbsp;·&nbsp; This privacy policy applies to the Chrome Web Store distribution of TabWarden.</p>
+  </footer>
+
+</div>
+</body>
+</html>
